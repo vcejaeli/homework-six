@@ -1,0 +1,1 @@
+const toggleButton=document.getElementsByClassName("toggle-button")[0],navbarLinks=document.getElementById("navbar")[0];toggleButton.addEventListener("click",(()=>{navbarLinks.toggle("active")}));
